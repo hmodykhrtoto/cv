@@ -1,0 +1,297 @@
+{% extends 'based.html' %}
+
+
+{% block head %}
+  
+
+{% endblock %}
+{% block body %}
+<!--HEADER-->
+<header>
+<nav class="nav" id="nav">
+<a href="#">HOME</a>
+<a href="#">ABOUT ME</a>
+<a href="#Skills">SKILLS</a>
+<a href="#MyWorks">MY WORKS</a>
+<a href="#ContactMe">CONTACT ME</a>
+<a href="https://drive.google.com/file/d/1KZrCfO0LSG3-SbRNTx7iPL5zl9EADR1V/view?usp=drive_link" class="active">DOWNLOAD CV <i class="fa fa-download"></i></a>
+<a class="icon" id="icon" onclick="opennav()"><i class="fa fa-bars"></i></a>
+</nav>
+</header>
+
+
+
+<!--CONTAINER-->
+<div class="container">
+<table>
+<tr>
+<td>
+<div class="author_content">
+<h1 class="title">Mohammed Khartoutu</h1>
+<p>Hello! Before I talk about professional qualifications and abilities, I would like to say this
+    I introduce myself to you.</p><p>I am <em>Mohamed Omar Al-Taher</em> and I am from Libya - Ghat.
+    I love technology and I love exploration, and it has always been my passion
+    Since my early teens.</p>
+    <p>I believe people should do the things they are good at or what their heart sets their heart on.</p>
+</div>
+<div class="author_name"></div>
+</td>
+<td>
+<section class="works">
+<div>
+<em>Qualification:</em>
+<ul>
+<li>Asmary University Zliten, Libya
+    Bachelor of Computer Science Information Technology</li>
+</ul>
+</div>
+<div>
+<em>Hobbies:</em>
+<ul>
+<li>Programming& book readers& games& Writing</li>
+</ul>
+</div>
+<div>
+<em>Languages:</em>
+<ul>
+<li>Arabic</li>
+<li>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+</li>
+</ul>
+<ul>
+<li>English</li>
+<li>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star-half-o checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</li>
+</ul>
+<ul>
+<li>touareg</li>
+<li>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+</li>
+</ul>
+</div>
+</section>
+<div class="social_icons">
+<a href="https://github.com/hmodykhrtoto" title="Github" target="_blank"><i class="fa fa-github"></i></a>
+<a href="https://facebook.com/HK.Root99" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+<a href="emailto:hkhrtoto@gmail.com" title="Email"><i class="fa fa-envelope"></i></a>
+</div>
+</td>
+</tr>
+
+
+
+
+<!--MY SKILLS-->
+<tr  id="Skills">
+<td>
+<div class="author_content">
+<h1 class="title">My Skills</h1>
+<p>My educational background and passion for programming and IT have enabled me to excel in this profession. Here is a brief overview of my skills:</p>
+
+<ol>
+    <li>
+        <div class="info">
+            <p class="semi-bold">IP Addressing and Subnetting</p> 
+        </div>
+    </li>
+    <li>
+        <div class="info">
+            <p class="semi-bold">Permissions and Access Control</p> 
+        </div>
+    </li>
+    <li>
+        <div class="info">
+            <p class="semi-bold">Problem-Solving Abilitie</p> 
+        </div>
+    </li>
+    <li>
+        <div class="info">
+            <p class="semi-bold">Manages VMware vSphere environments</p> 
+        </div>
+    </li>
+    <li>
+        <div class="info">
+            <p class="semi-bold">Veeam</p> 
+        </div>
+    </li>
+    <li>
+        <div class="info">
+            <p class="semi-bold">Windows/Linux OS Manager</p> 
+        </div>
+    </li>
+</ol>
+</div>
+</td>
+<td>
+<section>
+<em>Web developer & Scripts</em>
+<div class="languages">
+<label for="lan1">HTML</label>
+<div id="lan1" class="progress">
+<div class="progress-value"></div>
+</div>
+<label for="lan2">CSS</label>
+<div id="lan2" class="progress">
+<div class="progress-value progress2"></div>
+</div>
+<label for="lan3">Ryby On Rails</label>
+<div id="lan3" class="progress">
+<div class="progress-value progress3"></div>
+</div>
+<label for="lan4">PowerShell</label>
+<div id="lan4" class="progress">
+<div class="progress-value progress4"></div>
+</div>
+<label for="lan5">Python & Flask</label>
+<div id="lan5" class="progress">
+<div class="progress-value progress5"></div>
+</div>
+<label for="lan6">MYSQL</label>
+<div id="lan6" class="progress">
+<div class="progress-value progress6"></div>
+</div>
+</div>
+</div>
+</section>
+</td>
+</tr>
+
+
+
+
+<!--MY WORKS-->
+<tr>
+<td id="MyWorks">
+<div class="reviews author_content">
+    <div class="title">
+        <p class="bold">Work Experience</p>
+      </div>
+     <ul>
+         <li>
+             <div class="date">January 2019 - March 2020</div> 
+             <div class="info">
+                  <p class="semi-bold">Hikvision Smart Leans - Tripoli, Libya
+                    Camera Installer</p> 
+               <p>Installing cctv cameras and providing technical support</p>
+             </div>
+         </li>
+         <li>
+           <div class="date">February 2021 - January 2022</div>
+           <div class="info">
+                  <p class="semi-bold">
+                    مركز المتألق لصيانة السيارات الحديثة - Tripoli
+                    Automotive Technician
+                    </p> 
+               <p>Experience using diagnostic equipment, scan tools and personal computer
+                Improved vehicle performance by conducting thorough diagnostic tests and repairing or replacing faulty components.</p>
+             </div>
+         </li>
+         <li>
+           <div class="date">January 2022 - January 2023</div>
+           <div class="info">
+                  <p class="semi-bold">Almasar For Tecnology - Sabratah Technical Support Engineer</p> 
+               <p>Installing network equipment for customers for Oxygen Communications and Technology Company
+                Distributor of the POS system Asaria software and technical support
+                Computer maintenance
+                Installation of CCTV Dahua cameras and technical support</p>
+             </div>
+         </li>
+     </ul>
+ </div> 
+</div>
+</td>
+<td id="MyWorks">
+    <div class="myworks"></div>
+        <div class="reviews author_content">
+            <div class="title">
+                <p class="bold">Work Experience</p>
+              </div>
+             <ul>
+                 <li>
+                     <div class="date">January 2023 - July 2023</div> 
+                     <div class="info">
+                          <p class="semi-bold">Unaited Bak - Tripoli IT Help Desk Technician</p> 
+                       <p>devices maintenance
+                        Technical support services for all types of software
+                        Installed and configured operating systems and applications.
+                        Assist in solving employee problems
+                        Configured and tested new software and hardware.
+                        Implemented remote support tools to expedite issue resolution and reduce the need for in-person assistance.
+                        Diagnosed and troubleshot hardware, software and network issues.</p>
+                     </div>
+                 </li>
+                 <li>
+                   <div class="date">July 2023 - Current</div>
+                   <div class="info">
+                          <p class="semi-bold">United Bank - Tripoly Infrastructure Administrator</p> 
+                       <p>Servers management
+                        Provided onboarding and mentoring of newly hired employees, offering positive reinforcement.
+                        Track and diagnose problems and develop solutions
+                        Worked in team-driven environments and communicated effectively with stakeholders.</p>
+                     </div>
+                 </li>
+             </ul>
+         </div> 
+        </div>
+    </div>
+</td>
+</tr>
+
+
+
+
+
+<!--CONTACT FORM-->
+<tr id="ContactMe">
+<td>
+<div class="author_content">
+<h1 class="title">Love to hear form you</h1>
+<p>I always love to hear from you. You guys can reach me through my email address as a primary option or through filling the contact form.</p>
+</div>
+<footer>
+© If copyrighted here
+</footer>
+</td>
+<td>
+<section class="contact">
+<form id="contactform" method="post" action="/">
+<label for="name">Full name*</label>
+<input type="text" name="name" id="name" placeholder="Your name" maxlength="50" required="" />
+<label for="name">Email address*</label>
+<input type="email" name="email" id="email" placeholder="Email address" maxlength="100" required="" />
+<label for="message">Message*</label>
+<textarea name="message" id="message" placeholder="Your message here..." maxlength="250" required=""></textarea>
+<button type="submit">Send</button>
+</form>
+
+</section>
+</td>
+</tr>
+</table>
+</div>
+
+
+
+<div id="snackbar"></div>
+<div id="snackbar2"></div>
+
+
+<!--JAVASCRIPT-->
+<script type="text/javascript" src="js/custom.js"></script>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+{% endblock %}
